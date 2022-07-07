@@ -23,6 +23,19 @@ body {
   transition: 0.3s;
 }
 
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+#themeSelector {
+  border-radius: 20px;
+  padding: .5rem;
+  border: 2px solid var(--primary-color);
+}
+
 .container {
   width: 300px;
   margin: 4rem auto;
